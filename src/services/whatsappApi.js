@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { WHATSAPP_BEARER_TOKEN, WHATSAPP_API } = require('../config/constants');
+const { WHATSAPP_API } = require('../config/constants');
 const { logger } = require('../config/database');
 
 class WhatsAppAPIService {
@@ -7,7 +7,7 @@ class WhatsAppAPIService {
     this.apiClient = axios.create({
       baseURL: WHATSAPP_API.BASE_URL,
       headers: {
-        'Authorization': WHATSAPP_BEARER_TOKEN,
+        'Authorization': process.env.WHATSAPP_BEARER_TOKEN,
         'Content-Type': 'application/json'
       },
       timeout: 30000

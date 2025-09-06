@@ -1,5 +1,4 @@
 module.exports = {
-  WHATSAPP_BEARER_TOKEN: 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZXJ2aWNlIjp7InNlcnZpY2VOYW1lIjoibm90b3dhLXNlcnZpY2UiLCJpc1NlcnZpY2VUb2tlbiI6dHJ1ZSwic2VydmljZV9pZCI6Im5vdG93YS1zZXJ2aWNlIn0sImlhdCI6MTc1NjM2ODQzNCwiZXhwIjoxOTE0MTU2NDM0fQ.5gePx1AuhCxtLigxVfu_DIXiiV83zM-Xt69iiV_ltCs',
   
   // API Configuration
   WHATSAPP_API: {
