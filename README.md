@@ -71,6 +71,7 @@ Verify messages for specific phone numbers, a range, or all conversations for a 
 #### Request Body Options
 
 **Option 1: Specific Phone Numbers**
+
 ```json
 {
   "dateFrom": "2024-01-01T00:00:00Z",
@@ -84,6 +85,7 @@ Verify messages for specific phone numbers, a range, or all conversations for a 
 ```
 
 **Option 2: Phone Number Range**
+
 ```json
 {
   "dateFrom": "2024-01-01T00:00:00Z",
@@ -100,6 +102,7 @@ Verify messages for specific phone numbers, a range, or all conversations for a 
 ```
 
 **Option 3: All Conversations for a Business (Auto-fetch phone numbers)**
+
 ```json
 {
   "dateFrom": "2024-01-01T00:00:00Z",
